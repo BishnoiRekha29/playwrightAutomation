@@ -19,6 +19,9 @@ export class LoginPage {
 
   async clickGetStarted() {
     await this.page.getByRole('link', { name: 'Get started' }).click();
+
+    //  await this.page.getByRole('link', { name: 'Get started' }).click();
+    // clicking get started
   }
 
   async validateHeading(){
